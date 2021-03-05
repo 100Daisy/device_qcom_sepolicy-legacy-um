@@ -27,4 +27,4 @@ BOARD_PLAT_PUBLIC_SEPOLICY_DIR += \
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
     device/qcom/sepolicy-legacy-um/private
 
--include device/xtended/sepolicy/qcom/sepolicy.mk
+-include device/octavi/sepolicy/qcom/sepolicy.mk
