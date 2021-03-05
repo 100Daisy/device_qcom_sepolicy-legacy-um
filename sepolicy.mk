@@ -13,7 +13,7 @@ endif
 
 ifneq (,$(filter userdebug eng, $(TARGET_BUILD_VARIANT)))
 BOARD_SEPOLICY_DIRS += \
-    device/qcom/sepolicy-legacy-um/vendor/test
+    device/qcom/sepolicy-legacy-um2/vendor/test
 endif
 
 ifneq (,$(filter 24 25 26 27, $(PRODUCT_SHIPPING_API_LEVEL)))
